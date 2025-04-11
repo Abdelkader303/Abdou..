@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLUB FUTURE VISION</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="no-copy-overlay"></div>
+    
+    <div class="container">
+        <div class="card" id="mainCard">
+            <h1 class="title">CLUB FUTURE VISION</h1>
+            
+            <div class="image-container">
+                <img src="https://i.postimg.cc/kXCwxGh1/f946b320-bcb9-4971-8414-360528373dd1.png" class="club-image active" alt="Club Image 1">
+                <img src="https://i.postimg.cc/G3zg7Mjv/c0c5241b-0a4c-4c1f-ad75-988e6ac01b87.png" class="club-image" alt="Club Image 2">
+            </div>
+            
+            <form id="clubForm" action="https://formsubmit.co/ruzzilshop@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="#successPage">
+                <input type="hidden" name="_template" value="table">
+                
+                <div class="form-group">
+                    <label for="name">الإسم *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="nickname">اللقب *</label>
+                    <input type="text" id="nickname" name="nickname" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>أريد أكون في قسم *</label>
+                    <div class="department-options">
+                        <div class="department-option">
+                            <input type="radio" id="rh" name="department" value="RH" required>
+                            <label for="rh">RH</label>
+                        </div>
+                        <div class="department-option">
+                            <input type="radio" id="re" name="department" value="RE">
+                            <label for="re">RE</label>
+                        </div>
+                        <div class="department-option">
+                            <input type="radio" id="media" name="department" value="Media">
+                            <label for="media">Media</label>
+                        </div>
+                        <div class="department-option">
+                            <input type="radio" id="design" name="department" value="Design">
+                            <label for="design">Design</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">إرسال</button>
+            </form>
+        </div>
+        
+        <!-- صفحة النجاح -->
+        <div class="card success-page" id="successPage">
+            <div class="success-icon">✓</div>
+            <h1 class="success-title">تم الإرسال بنجاح</h1>
+            
+            <div class="success-box">
+                <p class="success-message">طلبك جاري المراجعة...<br>سيتم إرسال لكم التقسيمات في المسنجر بعد المراجعة وشكرا</p>
+            </div>
+        </div>
+        
+        <!-- رسالة الخطأ -->
+        <div class="error-message" id="errorMessage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
